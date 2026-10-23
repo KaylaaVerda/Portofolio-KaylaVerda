@@ -16,7 +16,7 @@ export const profileData: ProfileData = {
     degree: 'S1',
     city: 'Semarang',
   },
-  profileImage: '/images/profile/profile.jpg',
+  profileImage: '/images/profile.jpg',
   socialLinks: [
     {
       platform: 'instagram',

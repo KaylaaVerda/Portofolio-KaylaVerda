@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Cupcake Cup / Wrapper -->
+  <path d="M7 16L9.5 28C9.7 29.1 10.7 30 11.9 30H20.1C21.3 30 22.3 29.1 22.5 28L25 16H7Z" fill="#E7AE75" stroke="#83513E" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Wrapper pleats -->
+  <path d="M12 17L13 29" stroke="#83513E" stroke-width="1" stroke-linecap="round"/>
+  <path d="M16 17L16 29" stroke="#83513E" stroke-width="1" stroke-linecap="round"/>
+  <path d="M20 17L19 29" stroke="#83513E" stroke-width="1" stroke-linecap="round"/>
+  <!-- Frosting base (soft swirl) -->
+  <path d="M6 16C5.5 13.5 8 11.5 10.5 12C11.5 9 15.5 8.5 17 11C19.5 9.5 23 11 23.5 13.5C25.5 14 26.5 16 25 17.5C23.5 19 8.5 19 6 16Z" fill="#FAD6D3"/>
+  <path d="M7 16C6.5 14 8.5 12.5 10.5 13C11.5 10 15 9.5 16.5 11.5C19 10.5 22 11.5 22.5 13.5C24.5 14 25 15.5 24 16.5C22.5 18 9 18 7 16Z" fill="#F28AA1"/>
+  <!-- Cherry on top -->
+  <circle cx="16" cy="7" r="3.2" fill="#F28AA1" stroke="#83513E" stroke-width="1"/>
+  <circle cx="15.2" cy="6" r="0.8" fill="#FFF5F4"/>
+  <!-- Cherry stem -->
+  <path d="M16.5 4.5C17.5 2.5 20 2 21 2.5" stroke="#83513E" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

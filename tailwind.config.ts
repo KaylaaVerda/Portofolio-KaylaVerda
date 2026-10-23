@@ -11,29 +11,29 @@ const config: Config = {
     extend: {
       colors: {
         fawn: {
-          DEFAULT: 'var(--color-fawn)',
-          soft: 'var(--color-fawn-soft)',
-          light: 'var(--color-fawn-light)',
+          DEFAULT: '#E7AE75',
+          soft: '#EFC498',
+          light: '#F8E7D4',
         },
         wheat: {
-          DEFAULT: 'var(--color-wheat)',
-          soft: 'var(--color-wheat-soft)',
-          light: 'var(--color-wheat-light)',
+          DEFAULT: '#F6DFB3',
+          soft: '#FAEDCE',
+          light: '#FDF9EE',
         },
         'misty-rose': {
-          DEFAULT: 'var(--color-misty-rose)',
-          soft: 'var(--color-misty-rose-soft)',
-          light: 'var(--color-misty-rose-light)',
+          DEFAULT: '#FAD6D3',
+          soft: '#FCE3E1',
+          light: '#FFF5F4',
         },
         'salmon-pink': {
-          DEFAULT: 'var(--color-salmon-pink)',
-          soft: 'var(--color-salmon-pink-soft)',
-          light: 'var(--color-salmon-pink-light)',
+          DEFAULT: '#F28AA1',
+          soft: '#F7AEC0',
+          light: '#FBD4DC',
         },
         bole: {
-          DEFAULT: 'var(--color-bole)',
-          soft: 'var(--color-bole-soft)',
-          deep: 'var(--color-bole-deep)',
+          DEFAULT: '#83513E',
+          soft: '#A06A54',
+          deep: '#653A2A',
         },
       },
       fontFamily: {
