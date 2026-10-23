@@ -5,3 +5,4 @@ export * from './Chip';
 export * from './Reveal';
 export * from './ImagePlaceholder';
 export * from './SafeImage';
+export * from './Lightbox';

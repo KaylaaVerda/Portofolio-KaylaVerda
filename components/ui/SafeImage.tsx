@@ -15,6 +15,7 @@ export interface SafeImageProps extends Omit<ImageProps, 'onError'> {
 export function SafeImage({
   src,
   alt,
+  fill,
   fallbackCategory = 'design',
   fallbackLabel,
   fallbackSublabel,
@@ -32,8 +33,8 @@ export function SafeImage({
         category={fallbackCategory}
         label={fallbackLabel || (typeof alt === 'string' ? alt : 'Pratinjau Gambar')}
         sublabel={fallbackSublabel}
-        aspectRatio={fallbackAspectRatio}
-        className={containerClassName || className}
+        aspectRatio={fill ? 'auto' : fallbackAspectRatio}
+        className={fill ? `absolute inset-0 w-full h-full ${containerClassName}` : (containerClassName || className)}
       />
     );
   }
@@ -42,6 +43,7 @@ export function SafeImage({
     <Image
       src={src}
       alt={alt}
+      fill={fill}
       className={className}
       onError={() => setHasError(true)}
       {...rest}
