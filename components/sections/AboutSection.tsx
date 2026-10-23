@@ -129,54 +129,48 @@ export function AboutSection() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {skillGroups.map((group, groupIdx) => {
-              // Pemilihan varian warna kartu dan chip agar bervariasi manis
-              const cardVariants: Array<'default' | 'tint' | 'frosted'> = ['tint', 'default', 'frosted'];
-              const chipVariants: Array<'salmon' | 'fawn' | 'wheat'> = ['salmon', 'fawn', 'wheat'];
-
-              return (
-                <Reveal key={group.id} direction="up" delay={0.15 * (groupIdx + 1)}>
-                  <GlassCard
-                    variant={cardVariants[groupIdx % cardVariants.length]}
-                    hoverEffect={true}
-                    className="h-full flex flex-col justify-between"
-                  >
-                    <div>
-                      {/* Judul Kategori Keahlian */}
-                      <div className="flex items-center justify-between mb-3">
-                        <h4 className="font-serif font-bold text-lg text-bole">
-                          {group.title}
-                        </h4>
-                        <span className="h-2 w-2 rounded-full bg-salmon-pink/60" aria-hidden="true" />
-                      </div>
-
-                      <p className="font-serif text-xs sm:text-sm text-bole-soft mb-6 leading-relaxed">
-                        {group.description}
-                      </p>
-
-                      {/* Daftar Stiker / Chip Keahlian */}
-                      <div className="flex flex-wrap gap-2">
-                        {group.skills.map((skill) => (
-                          <Chip
-                            key={skill.id}
-                            label={skill.name}
-                            sublabel={skill.level}
-                            variant={chipVariants[groupIdx % chipVariants.length]}
-                            size="sm"
-                          />
-                        ))}
-                      </div>
+            {skillGroups.map((group, groupIdx) => (
+              <Reveal key={group.id} direction="up" delay={0.15 * (groupIdx + 1)}>
+                <GlassCard
+                  variant="default"
+                  hoverEffect={true}
+                  className="h-full flex flex-col justify-between"
+                >
+                  <div>
+                    {/* Judul Kategori Keahlian */}
+                    <div className="flex items-center justify-between mb-3">
+                      <h4 className="font-serif font-bold text-lg text-bole">
+                        {group.title}
+                      </h4>
+                      <span className="h-2 w-2 rounded-full bg-salmon-pink/60" aria-hidden="true" />
                     </div>
 
-                    {/* Catatan kaki kecil ramah di bawah kartu */}
-                    <div className="mt-6 pt-4 border-t border-bole/10 flex items-center gap-1.5 text-[11px] text-bole-soft font-serif">
-                      <span className="text-salmon-pink font-semibold">Status:</span>
-                      <span>{groupIdx === 1 ? 'Tingkat dasar dan terus berkembang' : 'Eksplorasi aktif'}</span>
+                    <p className="font-serif text-xs sm:text-sm text-bole-soft mb-6 leading-relaxed">
+                      {group.description}
+                    </p>
+
+                    {/* Daftar Stiker / Chip Keahlian Seragam */}
+                    <div className="flex flex-wrap gap-2">
+                      {group.skills.map((skill) => (
+                        <Chip
+                          key={skill.id}
+                          label={skill.name}
+                          sublabel={skill.level}
+                          variant="wheat"
+                          size="sm"
+                        />
+                      ))}
                     </div>
-                  </GlassCard>
-                </Reveal>
-              );
-            })}
+                  </div>
+
+                  {/* Catatan kaki kecil ramah di bawah kartu */}
+                  <div className="mt-6 pt-4 border-t border-bole/10 flex items-center gap-1.5 text-[11px] text-bole-soft font-serif">
+                    <span className="text-salmon-pink font-semibold">Status:</span>
+                    <span>{groupIdx === 1 ? 'Tingkat dasar dan terus berkembang' : 'Eksplorasi aktif'}</span>
+                  </div>
+                </GlassCard>
+              </Reveal>
+            ))}
           </div>
         </div>
 
