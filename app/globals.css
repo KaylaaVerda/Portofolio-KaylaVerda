@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Palet Wajib */
+  --color-fawn: #E7AE75;
+  --color-fawn-soft: #EFC498;
+  --color-fawn-light: #F8E7D4;
+
+  --color-wheat: #F6DFB3;
+  --color-wheat-soft: #FAEDCE;
+  --color-wheat-light: #FDF9EE;
+
+  --color-misty-rose: #FAD6D3;
+  --color-misty-rose-soft: #FCE3E1;
+  --color-misty-rose-light: #FFF5F4;
+
+  --color-salmon-pink: #F28AA1;
+  --color-salmon-pink-soft: #F7AEC0;
+  --color-salmon-pink-light: #FBD4DC;
+
+  --color-bole: #83513E;
+  --color-bole-soft: #A06A54;
+  --color-bole-deep: #653A2A;
+}
+
+/* Pengaturan dasar HTML dan Body */
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  color: var(--color-bole);
+  background: linear-gradient(160deg, #FDF9EE 0%, #FAEDCE 30%, #FCE3E1 70%, #FFF5F4 100%);
+  background-attachment: fixed;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 16px;
+  line-height: 1.65;
+  overflow-x: clip;
+  min-height: 100vh;
+}
+
+/* Seleksi teks */
+::selection {
+  background-color: var(--color-misty-rose);
+  color: var(--color-bole-deep);
+}
+
+/* Glassmorphism standar dan fallback untuk browser tanpa backdrop-filter */
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 30px rgba(131, 81, 62, 0.08);
+}
+
+@supports (backdrop-filter: blur(12px)) or (-webkit-backdrop-filter: blur(12px)) {
+  .glass-panel {
+    background-color: rgba(255, 255, 255, 0.42);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+  }
+
+  .glass-panel-tint {
+    background-color: rgba(250, 214, 211, 0.35);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+  }
+}
+
+/* Aksesibilitas: Hormati preferensi pengurangan animasi */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
