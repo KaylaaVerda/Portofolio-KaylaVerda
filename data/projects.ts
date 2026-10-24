@@ -3,8 +3,9 @@ import { ProjectsData } from './types';
 export const projectsData: ProjectsData = {
   githubUsername: 'KaylaaVerda',
   githubProfileUrl: 'https://github.com/KaylaaVerda',
+  enableGithubFetch: false,
   sectionIntro:
-    'Rangkaian proyek web yang menguji integrasi antara konsep tata letak grafis dan implementasi kode front-end yang terstruktur.',
+    'Rangkaian proyek yang merangkai konsep tata letak grafis bersama implementasi kode yang terstruktur.',
   projects: [
     {
       id: 'proj-01',

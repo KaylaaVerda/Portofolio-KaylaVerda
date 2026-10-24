@@ -111,4 +111,5 @@ export interface ProjectsData {
   githubProfileUrl: string;
   sectionIntro: string;
   projects: ProjectItem[];
+  enableGithubFetch?: boolean;
 }
