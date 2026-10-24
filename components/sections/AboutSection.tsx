@@ -123,7 +123,7 @@ export function AboutSection() {
                 Keahlian dan Alat Kerja
               </h3>
               <p className="font-serif text-sm sm:text-base text-bole-soft max-w-lg mx-auto">
-                Kumpulan alat bantu visual dan dasar teknologi web yang saya pelajari dan gunakan dalam proses eksplorasi karya.
+                Kumpulan alat desain, bahasa pemrograman, serta minat fotografi dan videografi yang saya gunakan dalam proses berkarya.
               </p>
             </Reveal>
           </div>
@@ -166,7 +166,7 @@ export function AboutSection() {
                   {/* Catatan kaki kecil ramah di bawah kartu */}
                   <div className="mt-6 pt-4 border-t border-bole/10 flex items-center gap-1.5 text-[11px] text-bole-soft font-serif">
                     <span className="text-salmon-pink font-semibold">Status:</span>
-                    <span>{groupIdx === 1 ? 'Tingkat dasar dan terus berkembang' : 'Eksplorasi aktif'}</span>
+                    <span>{group.statusNote ?? 'Eksplorasi aktif'}</span>
                   </div>
                 </GlassCard>
               </Reveal>

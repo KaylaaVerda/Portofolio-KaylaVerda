@@ -40,6 +40,7 @@ export interface SkillGroup {
   title: string;
   description: string;
   skills: SkillItem[];
+  statusNote?: string;
 }
 
 export type DesignCategory = 'umum' | 'hmti' | 'sma';
