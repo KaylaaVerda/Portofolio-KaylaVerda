@@ -5,8 +5,8 @@ import { HeroSection } from '@/components/sections/HeroSection';
 import { AboutSection } from '@/components/sections/AboutSection';
 import { DesignSection } from '@/components/sections/DesignSection';
 import { PhotographySection } from '@/components/sections/PhotographySection';
-import { VideoSection } from '@/components/sections/VideoSection';
 import { ProjectsSection } from '@/components/sections/ProjectsSection';
+import { ContactSection } from '@/components/sections/ContactSection';
 
 export default function HomePage() {
   return (
@@ -18,8 +18,8 @@ export default function HomePage() {
         <AboutSection />
         <DesignSection />
         <PhotographySection />
-        <VideoSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
 
       <Footer />

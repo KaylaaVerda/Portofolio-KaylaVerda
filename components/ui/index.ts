@@ -6,5 +6,3 @@ export * from './Reveal';
 export * from './ImagePlaceholder';
 export * from './SafeImage';
 export * from './Lightbox';
-export * from './YouTubeLazyEmbed';
-export * from './LocalVideoPlayer';

@@ -15,7 +15,6 @@ export const navItems: NavItem[] = [
   { label: 'Tentang', href: '#tentang' },
   { label: 'Desain', href: '#desain' },
   { label: 'Fotografi', href: '#fotografi' },
-  { label: 'Video', href: '#video' },
   { label: 'Proyek', href: '#proyek' },
   { label: 'Kontak', href: '#kontak' },
 ];
@@ -151,7 +150,7 @@ export function Navbar() {
 
         {/* Tombol Aksi Kontak Cepat Desktop */}
         <div className="hidden md:block">
-          <Button href="#konten-kontak" variant="primary" size="sm">
+          <Button href="#kontak" variant="primary" size="sm">
             Hubungi Saya
           </Button>
         </div>
@@ -226,7 +225,7 @@ export function Navbar() {
 
           <div className="mt-4 pt-4 border-t border-salmon-pink/20">
             <Button
-              href="#konten-kontak"
+              href="#kontak"
               variant="primary"
               size="md"
               isFullWidth={true}

@@ -7,7 +7,6 @@ import { SafeImage } from '@/components/ui/SafeImage';
 import { Reveal } from '@/components/ui/Reveal';
 import { Lightbox, LightboxItem } from '@/components/ui/Lightbox';
 import { Sparkle, Sprinkles } from '@/components/decor/SweetIcons';
-import { ScallopedEdge } from '@/components/decor/ScallopedEdge';
 
 export function PhotographySection() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -161,11 +160,6 @@ export function PhotographySection() {
           })}
         </div>
 
-      </div>
-
-      {/* Tepi Bergelombang Lembut di Bagian Bawah Section */}
-      <div className="mt-16 sm:mt-20">
-        <ScallopedEdge position="bottom" fillColor="#FFF5F4" height={18} />
       </div>
 
       {/* Lightbox Reusable untuk Menampilkan Foto Resolusi Tinggi */}

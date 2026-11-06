@@ -15,7 +15,7 @@ export const projectsData: ProjectsData = {
       techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
       repoUrl: 'https://github.com/KaylaaVerda/Portofolio-KaylaVerda',
       demoUrl: 'https://kaylaaverda.vercel.app',
-      thumbnail: '/images/design/umum/karya-01.jpg',
+      thumbnail: '',
       isFeatured: true,
     },
     {
@@ -25,7 +25,7 @@ export const projectsData: ProjectsData = {
         'Eksplorasi tata letak katalog produk dengan komponen kartu kartu responsif dan filter kategori yang mudah dipahami.',
       techStack: ['React', 'Tailwind CSS', 'Figma'],
       repoUrl: 'https://github.com/KaylaaVerda',
-      thumbnail: '/images/design/umum/karya-02.jpg',
+      thumbnail: '',
       isFeatured: true,
     },
     {
@@ -35,7 +35,7 @@ export const projectsData: ProjectsData = {
         'Aplikasi web sederhana untuk mencatat referensi warna dan inspirasi desain antarmuka bagi pemula.',
       techStack: ['JavaScript', 'HTML5', 'CSS3'],
       repoUrl: 'https://github.com/KaylaaVerda',
-      thumbnail: '/images/design/umum/karya-03.jpg',
+      thumbnail: '',
       isFeatured: false,
     },
     {
@@ -45,7 +45,7 @@ export const projectsData: ProjectsData = {
         'Rancangan halaman arahan yang fokus pada kejelasan informasi dan keselarasan hierarki tipografi.',
       techStack: ['HTML5', 'Tailwind CSS', 'JavaScript'],
       repoUrl: 'https://github.com/KaylaaVerda',
-      thumbnail: '/images/design/hmti/karya-01.jpg',
+      thumbnail: '',
       isFeatured: false,
     },
   ],

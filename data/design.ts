@@ -29,7 +29,7 @@ export const designItems: DesignItem[] = [
     description:
       'Deskripsi singkat konsep desain visual yang dikerjakan, mencakup pemilihan warna, hierarki teks, dan pesan utama yang ingin disampaikan kepada audiens.',
     category: 'umum',
-    image: '/images/design/umum/karya-01.jpg',
+    image: '',
     tags: ['UI Design', 'Figma', 'Wireframe'],
     year: '2024',
     aspectRatio: 'square',
@@ -40,7 +40,7 @@ export const designItems: DesignItem[] = [
     description:
       'Deskripsi singkat rancangan visual dengan penekanan pada komposisi warna pastel dan tipografi yang nyaman dibaca.',
     category: 'umum',
-    image: '/images/design/umum/karya-02.jpg',
+    image: '',
     tags: ['Eksplorasi Grafis', 'Tipografi', 'Poster'],
     year: '2024',
     aspectRatio: 'portrait',
@@ -51,7 +51,7 @@ export const designItems: DesignItem[] = [
     description:
       'Deskripsi singkat konsep antarmuka aplikasi dengan sentuhan elemen lembut dan navigasi yang intuitif bagi pengguna.',
     category: 'umum',
-    image: '/images/design/umum/karya-03.jpg',
+    image: '',
     tags: ['Mobile UI', 'Figma', 'Prototyping'],
     year: '2024',
     aspectRatio: 'portrait',
@@ -62,7 +62,7 @@ export const designItems: DesignItem[] = [
     description:
       'Desain konten visual untuk publikasi kegiatan mahasiswa Teknik Informatika Udinus dengan gaya formal namun tetap segar.',
     category: 'hmti',
-    image: '/images/design/hmti/karya-01.jpg',
+    image: '',
     tags: ['HMTI Udinus', 'Media Sosial', 'Publikasi'],
     year: '2023',
     aspectRatio: 'square',
@@ -73,7 +73,7 @@ export const designItems: DesignItem[] = [
     description:
       'Rancangan poster pengumuman program internal organisasi dengan penekanan informasi jadwal dan tata cara partisipasi.',
     category: 'hmti',
-    image: '/images/design/hmti/karya-02.jpg',
+    image: '',
     tags: ['HMTI Udinus', 'Poster Event', 'Canva'],
     year: '2023',
     aspectRatio: 'portrait',
@@ -84,7 +84,7 @@ export const designItems: DesignItem[] = [
     description:
       'Infografis sederhana seputar pengenalan dasar teknologi informasi yang dirancang secara bertahap untuk pembaca umum.',
     category: 'hmti',
-    image: '/images/design/hmti/karya-03.jpg',
+    image: '',
     tags: ['HMTI Udinus', 'Infografis', 'Edukasi'],
     year: '2024',
     aspectRatio: 'square',
@@ -95,7 +95,7 @@ export const designItems: DesignItem[] = [
     description:
       'Eksplorasi awal pembuatan poster acara sekolah saat masa SMA yang menjadi langkah pertama dalam belajar prinsip tata letak.',
     category: 'sma',
-    image: '/images/design/sma/karya-01.jpg',
+    image: '',
     tags: ['Masa SMA', 'Poster Sekolah', 'Awal Belajar'],
     year: '2022',
     aspectRatio: 'portrait',
@@ -106,7 +106,7 @@ export const designItems: DesignItem[] = [
     description:
       'Rancangan visual kartu ucapan dan materi grafis sederhana untuk kegiatan komunitas sekolah tingkat menengah atas.',
     category: 'sma',
-    image: '/images/design/sma/karya-02.jpg',
+    image: '',
     tags: ['Masa SMA', 'Kartu Ucapan', 'Grafis Dasar'],
     year: '2022',
     aspectRatio: 'square',

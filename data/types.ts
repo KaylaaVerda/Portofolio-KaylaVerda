@@ -73,28 +73,6 @@ export interface PhotographyItem {
   aspectRatio?: 'portrait' | 'square' | 'landscape';
 }
 
-export interface YouTubeVideoItem {
-  id: string;
-  title: string;
-  description: string;
-  videoId: string;
-  customThumbnail?: string;
-}
-
-export interface LocalVideoItem {
-  id: string;
-  title: string;
-  description: string;
-  videoSrc: string;
-  posterSrc?: string;
-}
-
-export interface VideosData {
-  sectionIntro: string;
-  youtubeVideos: YouTubeVideoItem[];
-  localVideos: LocalVideoItem[];
-}
-
 export interface ProjectItem {
   id: string;
   title: string;
